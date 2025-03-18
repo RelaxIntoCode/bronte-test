@@ -1,0 +1,64 @@
+.page {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+/* Main Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-image: url("/dog.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Overlay: Stretches fully */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+/* Button */
+.hero button {
+  position: relative;
+  z-index: 2;
+  padding: 14px 20px;
+  font-size: 14px;
+  border: transparent;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--black-pri);
+  background-color: var(--orange-pri);
+  margin-bottom: 40px;
+}
+
+.hero button:hover {
+  color: var(--orange-pri);
+  background-color: var(--black-pri);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 75vh;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero {
+    height: 85vh;
+  }
+}
