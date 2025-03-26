@@ -1,0 +1,13 @@
+.servicesHeading {
+  background: linear-gradient(45deg, #272929, #f6820b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.servicesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

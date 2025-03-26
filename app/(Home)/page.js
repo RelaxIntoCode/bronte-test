@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection/AboutSection";
 
 import styles from "./page.module.css";
 import Link from "next/link";
+import ServicesSection from "@/components/ServicesSection/ServicesSection";
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -9,6 +10,7 @@ export default function Home() {
         <Link href="/bookings">Make a Booking</Link>
       </div>
       <AboutSection />
+      <ServicesSection />
     </div>
   );
 }
