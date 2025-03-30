@@ -27,10 +27,7 @@ function AboutSection() {
           est. Sequi laborum fugit accusantium eaque saepe hic, id repellat
           dignissimos rerum veniam facere? Sunt sed, praesentium minima error,
           alias asperiores quos impedit ipsa earum eaque voluptatum nihil
-          reprehenderit quidem veniam. Aliquam tempora, obcaecati libero in quas
-          aspernatur labore cupiditate itaque voluptas dicta praesentium ipsa
-          vero corrupti voluptatum rerum, magnam assumenda, repudiandae
-          architecto dolorem veniam.
+          reprehenderit quidem veniam.
         </p>
       </div>
     </main>

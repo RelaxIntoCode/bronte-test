@@ -10,6 +10,9 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: var(--light-grey);
+}
 :root {
   --black-pri: #272929;
   --orange-pri: #f6820b;

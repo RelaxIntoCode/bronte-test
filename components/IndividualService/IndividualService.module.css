@@ -1,6 +1,8 @@
 .container {
   width: 300px;
   height: 300px;
+  background-color: white;
+  border-radius: 6px;
 }
 
 .imageContainer {
@@ -9,10 +11,69 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80%;
+  height: 65%;
   position: relative;
   overflow: hidden;
 }
+
+.imageContainer img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceTitle h3 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: rgba(237, 237, 237, 0.9);
+}
+
+.serviceTitle .icon {
+  z-index: 99;
+  font-size: 28px;
+  color: rgba(237, 237, 237, 0.9);
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .descriptionContainer {
-  height: 20%;
+  height: 35%;
+  padding: 2px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.descriptionContainer svg {
+  /* text-align: center; */
+  color: green;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+.descriptionContainer p {
+  font-size: 14px;
 }
