@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--orange-pri);
+  color: var(--light-grey);
+}
+
+.contentContainer {
+  border: 2px solid red;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contactContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
