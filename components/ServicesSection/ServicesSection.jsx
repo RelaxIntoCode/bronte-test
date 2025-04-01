@@ -59,7 +59,7 @@ function ServicesSection() {
   ];
   return (
     <div>
-      <h1 className={styles.servicesHeading}>Services</h1>
+      <h3 className={styles.servicesHeading}>Services</h3>
       <div className={styles.servicesContainer}>
         {services.map((service) => (
           <IndividualService
