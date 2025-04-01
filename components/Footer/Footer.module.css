@@ -3,17 +3,33 @@
   min-height: 150px;
   background-color: var(--orange-pri);
   color: var(--light-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contentContainer {
-  border: 2px solid red;
   height: 100%;
   width: 90%;
-  margin: 0 auto;
 }
 
 .contactContainer {
   width: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 4px;
+}
+
+.contentContainer h3 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.contactContainer p {
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.copyright {
+  font-style: italic;
 }

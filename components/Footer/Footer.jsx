@@ -19,7 +19,9 @@ function Footer() {
           </div>
           <div className={styles.contactContainer}>
             <FaRegCopyright />
-            <p>Copyright. Relax Into Code. All Rights Reserved 2025</p>
+            <p className={styles.copyright}>
+              Copyright. RelaxIntoCode. All Rights Reserved 2025
+            </p>
           </div>
         </div>
       </div>
