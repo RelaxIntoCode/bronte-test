@@ -1,0 +1,53 @@
+.container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  width: 220px;
+  box-shadow: -2px 2px 6px #bcbbbb, 2px -2px 6px #bcbbbb;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.titleContainer {
+  position: absolute;
+  top: -10%;
+  left: 10%;
+  width: 80%;
+  min-height: 20px;
+  background: linear-gradient(45deg, #272929, #f6820b);
+  border-radius: 4px;
+}
+
+.container h3 {
+  font-weight: 600;
+  color: var(--light-grey);
+  font-size: 18px;
+  padding: 4px;
+  text-align: center;
+}
+
+.pricesContainer {
+  margin-top: 16px;
+}
+
+.pricesContainer p {
+  font-size: 14px;
+}
+
+.pricesContainer svg {
+  color: green;
+  font-size: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.price span {
+  color: green;
+  margin-left: 4px;
+  font-size: 14px;
+  font-style: italic;
+}
